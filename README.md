@@ -9,5 +9,6 @@ Cart Page:
 - increase or decrease quantity of product OR remove item.
 - Place order using button, features toast indicator which then transfers you to Orders page
 Orders Page:
-- view recently placed orders
+- View recently placed orders.
+
 Start date Oct. 2, finish Oct. 5. Will I add more to this? Maybe not. Why? Other things to learn. 
