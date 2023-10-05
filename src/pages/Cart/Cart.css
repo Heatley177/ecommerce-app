@@ -1,0 +1,145 @@
+.cart {
+    display: flex;
+    flex: 1;
+}
+
+/* LEFT SIDE OF CART */
+
+.cartLeft {
+    flex: 0.7;
+    margin: 15px;
+    padding: 10px;
+}
+
+.cartContainer {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0 , 0, 0, 0.2);
+}
+
+.cartDescription {
+    margin-top: 5px;
+    margin-left: 30px;
+    flex-grow: 1;
+}
+
+.cartButtonContainer {
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+.cartButtons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.removeButton {
+    background-color: rgb(245, 179, 179);
+    padding: 5px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    margin-top: 8px;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px rgba(0 , 0, 0, 0.2);
+}
+
+.emptyCart {
+    text-align: center;
+    color: gray;
+}
+
+/* RIGHT SIDE OF CART */
+
+.cartRight {
+    background-color: rgba(228, 228, 228, 0.313);    
+    flex: 0.3;
+    padding: 10px; 
+}
+
+.cartLocation {
+    display: flex;
+    margin-top: 33px;
+    border-bottom: 1px solid rgba(0 , 0, 0, 0.2);
+}
+
+.cartLocationDescription {
+    margin-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.cartLocationDescriptionText {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.cardRightButton {
+    background-color: blanchedalmond;
+    margin-top: 7px;
+    outline: none;
+    border: none;
+    margin-top: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 7px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0 , 0, 0, 0.2);
+}
+
+.cartCoupon {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    gap: 10px;
+}
+
+.couponText {
+    font-size: 14;
+    font-weight: 500;
+    padding: 3px 10px;
+}
+.couponInput {
+    display: flex;
+    padding: 3px 10px;
+}
+.couponSubmit {
+    background-color: rgb(228, 255, 205);
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 7px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0 , 0, 0, 0.2);
+}
+.cartCheckoutContainer {
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+.cartCheckoutValue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+.cartCheckoutButton {
+    background-color: white;
+    width: 200px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0 , 0, 0, 0.2);
+}
